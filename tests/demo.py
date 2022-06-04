@@ -7,6 +7,8 @@ def driver():
     driver.maximize_window()
     driver.get("https:www.google.com")
     time.sleep(5)
+    a = 5
+    assert a == 6
 
 driver()
 
